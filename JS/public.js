@@ -47,7 +47,7 @@ function changelan() {
     
     if (lang == "ch") {
         setCookie("EschLanguage", "en");
-        location.href = "/esch/en/index.html";
+        location.href = "/esch/En/index.html";
     } else {
         setCookie("EschLanguage", "ch");
         location.href = "/esch/index.html";
