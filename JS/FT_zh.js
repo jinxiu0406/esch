@@ -51,7 +51,7 @@ function setCookie(name, value) {
         var LargeExpDate = new Date ();
         LargeExpDate.setTime(LargeExpDate.getTime() + (expires*1000*3600*24));
     }
-    document.cookie = name + "=" + escape (value)+((expires == null) ? "" : (";path=/; expires=" +LargeExpDate.toGMTString()));
+    document.cookie = name + "=" + escape(value) + ((expires == null) ? ";path=/;" : (";path=/; expires=" + LargeExpDate.toGMTString()));
 }
 function getCookie(Name) {
     var search = Name + "="
