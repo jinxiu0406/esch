@@ -9,7 +9,7 @@
 //        }
 //    })
 //}
-var adminurl = "http://cnesch.me";
+var adminurl = "https://cnesch.me";
 function getCookie(name) {
     var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
 
